@@ -1,0 +1,71 @@
+#wrapper{ display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 15% 15% 15% 15% 15% 15% 15% 15%;}
+
+
+
+#box {grid-column: 5/6;
+width:200px;
+height: 200px;
+background-color: blue;
+;
+grid-row: 3/4;
+font-size: 150px;
+text-align: center;
+margin: auto;
+border-radius: 10px;
+border: 10px solid black; 
+}
+
+#box2 {grid-column: 6/7;
+width:200px;
+height: 200px;
+background-color: blue;
+border-radius: 0ch
+;
+grid-row: 3/4;
+text-align: center;
+font-size: 150px;
+margin: auto;
+border: 10px solid black;
+
+}
+
+#box3 {grid-column: 7/8;
+width:200px;
+height: 200px;
+background-color:blue;
+font-size: 150px;
+grid-row: 3/4;
+text-align: center;
+margin: auto;
+border-radius: 10px;
+border: 10px solid black;
+}
+
+
+#b1{grid-column: 6/7;
+grid-row:6/7;
+margin: auto;
+font-size: 50px;}
+
+   
+#b2{grid-column: 6/7;
+grid-row: 7/8 ;
+margin: auto;
+font-size:50px;}
+    
+#b3{grid-column: 6/7;
+grid-row: 8/9;
+margin: auto;
+font-size:50px; }
+
+#box4 {grid-column: 8/9;
+width:85%;
+height: 200px;
+font-size: 100px;
+grid-row: 2/3;
+text-align: center;
+margin: auto;
+border-radius: 10px;
+}
